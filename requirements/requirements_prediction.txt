@@ -1,0 +1,7 @@
+torch
+torchvision
+flask
+pillow
+flask_cors
+opencv-python
+numpy

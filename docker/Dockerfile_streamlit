@@ -1,0 +1,12 @@
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY apps/app_streamlit.py .
+COPY requirements/requirements_streamlit.txt .
+
+RUN pip install -r requirements_streamlit.txt
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app_streamlit.py", "--server.port=8501", "--server.address=0.0.0.0"]

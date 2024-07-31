@@ -1,0 +1,12 @@
+FROM python:3.8-slim
+
+WORKDIR /app
+
+COPY app/app_prediction.py .
+COPY requirements/requirements_prediction.txt .
+
+RUN pip install -r requirements_prediction.txt
+
+EXPOSE 8000
+
+CMD ["python", "app_prediction.py"]
