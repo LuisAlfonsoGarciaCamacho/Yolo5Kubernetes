@@ -1,5 +1,5 @@
 # Object Detection Project with YOLOv5
-
+![Project Demonstration](https://github.com/LuisAlfonsoGarciaCamacho/Yolo5Kubernetes/blob/bbbfce4958a6f5ce860e4f0883dd2374cbd6b1ed/img/demostration.gif)
 A Docker and Kubernetes project for deploying object detection applications, featuring prediction, storage, and a Streamlit interface.
 
 ## Applications
