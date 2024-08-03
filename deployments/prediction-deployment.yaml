@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: prediction
-        image: meta1408/streamlit_yolo:yolov5-prediction
+        image: USERNAME/streamlit_yolo:yolov5-prediction
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
