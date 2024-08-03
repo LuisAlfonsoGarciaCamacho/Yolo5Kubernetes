@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: storage
-        image: meta1408/streamlit_yolo:yolov5-storage
+        image: USERNAME/streamlit_yolo:yolov5-storage
         ports:
         - containerPort: 8001
 ---
