@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: streamlit
-        image: meta1408/streamlit_yolo:yolov5-streamlit
+        image: USERNAME/streamlit_yolo:yolov5-streamlit
         ports:
         - containerPort: 8501
 ---
